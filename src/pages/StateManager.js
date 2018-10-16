@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ThemeApp from '../component/stateManage/theme-app';
+import ThemeApp from '../component/stateManager/theme-app';
 import img09 from '../image/09.jpg';
 import img10 from '../image/10.jpg';
 import img11 from '../image/11.jpg';

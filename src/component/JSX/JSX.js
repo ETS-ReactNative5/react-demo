@@ -47,7 +47,7 @@ class JSX extends Component {
           <div>undefined: {undefined}</div>
           <div>true: {true}</div>
           <div>{[].length && <b>前面改为布尔值才能控制元素的是否渲染</b>}</div>
-          <div>{[].length == 0 && <b>前面改为布尔值才能控制元素的是否渲染</b>}</div>
+          <div>{[].length === 0 && <b>前面改为布尔值才能控制元素的是否渲染</b>}</div>
 
           <div>false: {false || <b>ddddd</b>}</div>
           <div>null: {null || <b>ddddd</b>}</div>
