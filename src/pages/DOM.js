@@ -56,7 +56,9 @@ class DOM extends Component {
         {/*<RefClass1/>*/}
         <h5>refs 使用方式二 ： ref回调</h5>
         <p>React 将在组件挂载时将 DOM 元素传入ref 回调函数并调用，当卸载时传入 null 并调用它。在函数中我们把这个 DOM 元素设置为组件实例的一个属性，这样以后我们就可以通过 this.input 获取到这个 DOM 元素。</p>
+        {/*为dom元素加ref*/}
         <RefDom2/>
+        {/*为类组件加ref*/}
         {/*<RefClass2/>*/}
       </div>
     );

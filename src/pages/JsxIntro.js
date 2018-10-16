@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import JSX from '../component/JSX';
+import JSX from '../component/JSX/JSX';
 import img01 from '../image/01.png'
 
 class JsxIntro extends Component {
@@ -18,7 +18,7 @@ class JsxIntro extends Component {
           </h5>
           <img src={img01} alt=""/>
           <h4>JSX 语法 </h4>
-          <JSX type='Child2'></JSX>
+          <JSX></JSX>
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import LifeCycle1 from '../component/LifeCycle1'
+import LifeCycle1 from '../component/lifeCircle/LifeCycle1'
 import img05 from '../image/05.jpg'
 import img06 from '../image/06.jpg'
 import img07 from '../image/07.jpg'

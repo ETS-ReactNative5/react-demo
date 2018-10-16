@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import NoState from '../component/NoState';
-import ClassComponent from '../component/ClassComponent';
-import SetStateEg from '../component/SetStateEg';
+import NoState from '../component/stateProps/NoState';
+import ClassComponent from '../component/stateProps/ClassComponent';
+import SetStateEg from '../component/stateProps/SetStateEg';
 
 class Home extends Component {
 

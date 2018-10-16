@@ -15,11 +15,11 @@ class ClassComponent extends Component {
 
   render() {
     return (
-      <div>
-        <span className="eg">
+      <div className="eg">
+        <span>
           {this.props.title}
         </span>
-        <div className="">
+        <div>
           num: { this.state.num }
           <button style={{marginLeft: '20px'}} onClick={this.addNum}> +1 </button>
         </div>
